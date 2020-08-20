@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 22.636 s <<< FAILURE! - in TestSuite
+getWebWeatherData(integration.testcases.WeatherTestCase)  Time elapsed: 6.341 s  <<< FAILURE!
+java.lang.NullPointerException
+	at integration.testcases.WeatherTestCase.getWebWeatherData(WeatherTestCase.java:59)
+
+validateAPIWeatherData(integration.testcases.WeatherTestCase)  Time elapsed: 5.786 s  <<< FAILURE!
+java.lang.NullPointerException
+	at integration.testcases.WeatherTestCase.validateAPIWeatherData(WeatherTestCase.java:99)
+
